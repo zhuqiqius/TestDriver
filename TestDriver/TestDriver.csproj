@@ -50,6 +50,7 @@
     <Compile Include="Strings\ReverseString.cs" />
     <Compile Include="Strings\StringCompression.cs" />
     <Compile Include="Strings\StringPermutation.cs" />
+    <Compile Include="Strings\WordRotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
