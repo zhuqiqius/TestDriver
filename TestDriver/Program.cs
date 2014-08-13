@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestDriver.Matrices;
 using TestDriver.Strings;
 
 namespace TestDriver
@@ -18,6 +19,8 @@ namespace TestDriver
             ReplacWhiteSpaceWith20Percent.ReplaceWhiteSpaceWith20("Mr. John Smith");
             StringCompression.CompressString("aabcccccaaa");
             StringCompression.CompressString("abcdefgg");
+            int[,] imageOrignal = new int[2, 2] { { 1, 2 }, { 3, 4 } };
+            RotateImage.Rotate(imageOrignal);
         }
     }
 }

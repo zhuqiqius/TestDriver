@@ -1,0 +1,14 @@
+﻿Byte
+
+The byte /ˈbaɪt/ is a unit of digital information in computing and telecommunications that most commonly consists of eight bits. 
+Historically, the byte was the number of bits used to encode a single character of text in a computer[1][2] 
+and for this reason it is the smallest addressable unit of memory in many computer architectures. 
+
+The size of the byte has historically been hardware dependent and no definitive standards existed that mandated the size. 
+The de facto standard of eight bits is a convenient power of two permitting the values 0 through 255 for one byte.
+
+C# 
+
+long - 64 bits
+Int - 32 bits
+short - 16 bits
