@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Matrices\RotateImage.cs" />
+    <Compile Include="Matrices\SetZeroToMatrix.cs" />
     <Compile Include="Strings\HasAllUniqueCharacters.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

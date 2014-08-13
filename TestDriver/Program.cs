@@ -21,6 +21,8 @@ namespace TestDriver
             StringCompression.CompressString("abcdefgg");
             int[,] imageOrignal = new int[2, 2] { { 1, 2 }, { 3, 4 } };
             RotateImage.Rotate(imageOrignal);
+            int[,] m1 = new int[3, 3] { { 1, 2, 5 }, { 3, 1, 0 }, { 0, 4, 7 } };
+            SetZeroToMatrix.SetZeroToRowAndColumn(m1);
         }
     }
 }
