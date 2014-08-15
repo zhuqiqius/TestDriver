@@ -12,3 +12,17 @@ C#
 long - 64 bits
 Int - 32 bits
 short - 16 bits
+
+Difference between C# and Java: 
+
+C# and java both were derived from C++, and therefore they have similar roots, both are widely used for web programming. We discuss the difference between C# and java these are as follows: 
+•C# has more primitive datatypes
+•Java uses static final to declare a class constant while C# uses const.
+•Java does not provide for operator overloading.
+•C# supports the struct type and java does not.
+•Unlike java, all C# datatypes are object.
+•C# provides static constructors for initialization.
+•In java, parameters are always passed by value, c# allows parameters to be passed by reference by Ref keyword.
+•C# includes native support for properties, java does not.
+•Java does not directly support enumerations.
+•In java, the switch statement can have only integer expression, in C# supports integer and string both.

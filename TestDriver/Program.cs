@@ -23,6 +23,8 @@ namespace TestDriver
             RotateImage.Rotate(imageOrignal);
             int[,] m1 = new int[3, 3] { { 1, 2, 5 }, { 3, 1, 0 }, { 0, 4, 7 } };
             SetZeroToMatrix.SetZeroToRowAndColumn(m1);
+            Console.WriteLine(WordRotation.IsWordRotation("erbottlewat", "Waterbottle" ));
+            Console.WriteLine(WordRotation.IsWordRotation("Waterbottle", "erbettoewti"));
         }
     }
 }
