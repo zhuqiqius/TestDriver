@@ -18,16 +18,43 @@ namespace TestDriver.LinkedList
 
             while (n.next != null)
             {
-                if (n.next.data != buffer.ElementAt(0))
+                foreach (int number in buffer)
                 {
-                    buffer.Add(n.data);
+                    if (n.next.data != number)
+                    {
+                        buffer.Add(n.data);
+                    }
+                    else
+                    {
+                        n.next = n.next.next;
+                    }
                 }
-                else
-                {
-
-                }
+                n = n.next;
             }
             return head;
+        }
+
+        public static void RemoveLinkedListDuplicatesNoBuffer(Node head)
+        {
+            // Having two pointers, one stay at certain node, the other one is moving to next
+            Node n = head;
+            while (n.next != null)
+            {
+                int value = n.data;
+                Node m = n;
+                while (m.next != null)
+                {
+                    if (m.next.data != n.data)
+                    {
+                        m = m.next;
+                    }
+                    else
+                    {
+                        m.next = m.next.next;
+                    }
+                }
+                n = n.next;
+            }
         }
     }
 }
