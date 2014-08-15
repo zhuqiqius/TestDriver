@@ -12,6 +12,21 @@ namespace TestDriver.LinkedList
     {
         public static Node RemoveDuplicatesFromUnSortedLinkedList(Node head)
         {
+            List<int> buffer = new List<int>();
+            Node n = head;
+            buffer.Add(head.data);
+
+            while (n.next != null)
+            {
+                if (n.next.data != buffer.ElementAt(0))
+                {
+                    buffer.Add(n.data);
+                }
+                else
+                {
+
+                }
+            }
             return head;
         }
     }
