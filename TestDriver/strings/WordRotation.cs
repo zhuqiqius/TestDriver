@@ -26,7 +26,7 @@ namespace TestDriver.Strings
                 char[] b1 = b.ToLowerInvariant().ToCharArray();
 
                 int i = 0;
-                int k = 1;
+                int k = 0;
 
                 while (i < count)
                 {
@@ -40,6 +40,7 @@ namespace TestDriver.Strings
                     }
                     else
                     {
+                        k = 1;
                         for (int j = 1; j < count - i; j++)
                         {
                             if (b1[i + j] == a1[j])
