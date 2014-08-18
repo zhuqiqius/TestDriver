@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LinkedList\DeleteNodeInMiddle.cs" />
+    <Compile Include="LinkedList\FindKthToLastElement.cs" />
+    <Compile Include="LinkedList\LinkedListPartition.cs" />
     <Compile Include="LinkedList\Node.cs" />
     <Compile Include="LinkedList\RemoveDuplicates.cs" />
     <Compile Include="Matrices\RotateImage.cs" />
