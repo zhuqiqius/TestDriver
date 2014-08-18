@@ -12,7 +12,7 @@ namespace TestDriver.LinkedList
     {
         public static void DeleteMiddleMan(Node middle)
         {
-            // The steps are to making C become of C.next.
+            // The steps are making C become of C.next.
             Node nextToMiddle = middle.next;
             middle.data = nextToMiddle.data;
             middle.next = nextToMiddle.next;
