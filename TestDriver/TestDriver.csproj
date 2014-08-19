@@ -51,6 +51,9 @@
     <Compile Include="LinkedList\RemoveDuplicates.cs" />
     <Compile Include="Matrices\RotateImage.cs" />
     <Compile Include="Matrices\SetZeroToMatrix.cs" />
+    <Compile Include="StacksQueues\Node.cs" />
+    <Compile Include="StacksQueues\Queue.cs" />
+    <Compile Include="StacksQueues\Stack.cs" />
     <Compile Include="Strings\HasAllUniqueCharacters.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
