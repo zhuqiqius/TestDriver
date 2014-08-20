@@ -14,7 +14,8 @@ namespace TestDriver.StacksQueues
         {
             if (top != null)
             {
-                Object item = top.data; top = top.next;
+                Object item = top.data; 
+                top = top.next;
                 return item;
             }
             return null;
