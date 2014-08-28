@@ -38,6 +38,13 @@ namespace TestDriver.StacksQueues
             return null;
         }
 
+        //A pop operation on a specific sub-stack
+        public Object popAt(int index)
+        {
+            Stack s = stacks.ElementAt(index);
+            return s.pop();
+        }
+
         public void push(object item)
         {
             if (count == Capacity)
