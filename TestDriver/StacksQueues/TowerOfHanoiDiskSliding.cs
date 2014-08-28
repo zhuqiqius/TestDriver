@@ -15,5 +15,9 @@ namespace TestDriver.StacksQueues
     // Write a program to move the disks from the first tower to the last using stacks
     public class TowerOfHanoiDiskSliding
     {
+        Stack first, second;
+        const int Capacity = 100; // Capacity of a single stack
+        int count;
+
     }
 }
