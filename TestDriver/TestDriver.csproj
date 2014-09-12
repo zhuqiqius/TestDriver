@@ -51,6 +51,7 @@
     <Compile Include="LinkedList\RemoveDuplicates.cs" />
     <Compile Include="Matrices\RotateImage.cs" />
     <Compile Include="Matrices\SetZeroToMatrix.cs" />
+    <Compile Include="StacksQueues\AnimalShelter.cs" />
     <Compile Include="StacksQueues\MyQueue.cs" />
     <Compile Include="StacksQueues\SetOfStacks.cs" />
     <Compile Include="StacksQueues\ImplementThreeStacks.cs" />

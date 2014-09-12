@@ -18,16 +18,44 @@ namespace TestDriver.StacksQueues
                 return;
             }
 
-            int a = s1.pop();
+            int f = s1.pop();
             StackN s2 = new StackN();
+            s2.push(f);
 
             while (!s1.IsEmpty())
             {
-                int b = s1.peekQ();
-                if (b > a)
+                int a = s1.pop();
+                int b = s2.peekQ();
+                
+                if (a <= b)
                 {
-                    s1.pop();
-                    s2.push(b);
+                    s2.push(a);
+                }
+                else
+                {
+                    int count = 0;
+                    while (!s2.IsEmpty() && a > b)
+                    {
+                        int t = s2.pop();
+                        s1.push(t);
+                        b = s2.peekQ();
+                        count++;
+                    }
+
+                    s2.push(a); // now a is in the right place
+
+                    for (int i = 0; i < count; i++)
+                    {
+                        int r = s1.pop();
+                        s2.push(r);
+                    }
+                }
+
+                // Now s2 is sorted with smaller number on top
+                while (!s2.IsEmpty())
+                {
+                    int u = s2.pop();
+                    s1.push(u);
                 }
             }
         }
