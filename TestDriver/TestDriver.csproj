@@ -69,6 +69,7 @@
     <Compile Include="Strings\StringCompression.cs" />
     <Compile Include="Strings\StringPermutation.cs" />
     <Compile Include="Strings\WordRotation.cs" />
+    <Compile Include="Trees\CheckBalancedTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
